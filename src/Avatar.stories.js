@@ -8,6 +8,10 @@ export default {
   argTypes: {
     size: { options: ["tiny", "medium", "large"], control: "select" },
   },
+  parameters: {
+    componentSubtitle:
+      "Displays an image that represents a user or organization",
+  },
 };
 
 // New story using controls
@@ -39,6 +43,11 @@ export const Sizes = (args) => (
 Sizes.args = {
   username: "Tom Coleman",
   src: "https://avatars2.githubusercontent.com/u/132554",
+};
+Sizes.parameters = {
+  docs: {
+    storyDescription: "4 sizes are supported",
+  },
 };
 
 export const Initials = (args) => (
