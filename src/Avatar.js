@@ -6,7 +6,7 @@ import { glow } from "./shared/animation";
 import { Icon } from "./Icon";
 
 export const sizes = {
-  large: 50,
+  large: 55,
   medium: 28,
   small: 20,
   tiny: 16,
