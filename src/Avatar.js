@@ -6,7 +6,7 @@ import { glow } from "./shared/animation";
 import { Icon } from "./Icon";
 
 export const sizes = {
-  large: 40,
+  large: 55,
   medium: 28,
   small: 20,
   tiny: 16,
@@ -14,11 +14,12 @@ export const sizes = {
 
 const Image = styled.div`
   background: ${(props) => (!props.loading ? "transparent" : color.light)};
+  border: 2px solid tomato;
   border-radius: 50%;
   display: inline-block;
   vertical-align: top;
   overflow: hidden;
-  text-transform: uppercase;
+  text-transform: lowercase;
 
   height: ${sizes.medium}px;
   width: ${sizes.medium}px;
